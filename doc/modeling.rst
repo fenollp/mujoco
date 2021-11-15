@@ -1046,7 +1046,7 @@ points to the outside, thus creating a thicker shell which is harder to penetrat
        </composite>
    </body>
 
-Cylinders and ellipsoids are created in the same was as boxes. The only difference is that the reference positions of
+Cylinders and ellipsoids are created in the same way as boxes. The only difference is that the reference positions of
 the element bodies (relative to the parent) are projected on a cylinder or ellipsoid, with size implied by the
 :at:`count` attribute. The automatic skin generator is aware of the smooth surfaces, and adjusts the skin normals
 accordingly. In the plots we have used the capsule probe to press on each body, then paused the simulation and moved the
